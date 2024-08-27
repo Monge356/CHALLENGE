@@ -57,7 +57,7 @@ function desencriptar() {
     var texto = entradaTexto.value;
     var salida = "";
     if(!validar(texto)){
-        alert("Texto invalido, verifique su texto.")
+        alert("Texto invalido, verificar texto.")
         return;
     }
     for(var posicion = 0; posicion < texto.length; posicion++){
@@ -98,7 +98,7 @@ function ocultar(){
 }
 
 function mostrar(){
-    salidaTexto.style.background = "#FFF no-repeat center url(imagenes/notexto.png)";
+    salidaTexto.style.background = "#FFF no-repeat center url(img/img1)";
     seccionTexto1.style.display = "";
     seccionTexto2.style.display = "";
     btnCopiar.style.display = "none";
