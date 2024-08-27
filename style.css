@@ -37,7 +37,7 @@ main{
     height: 612px;
     color: darkblue;
     background: white;
-    background-image: url(img/img1.png);
+    background-image: url(img1.png);
     background-repeat: no-repeat;
     background-position: center;
     border: none;
